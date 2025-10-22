@@ -38,7 +38,7 @@ export default function FeatureCards() {
             const Icon = feature.icon
             return (
               <Card key={index} className="p-6 hover:shadow-lg transition border-blue-100">
-                <div className="w-12 h-12 bg-gradient-to-br from-blue-400 to-green-400 rounded-lg flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-[#063591] hover:bg-[#052a6b] text-white rounded-lg flex items-center justify-center mb-4">
                   <Icon className="w-6 h-6 text-white" />
                 </div>
                 <h3 className="text-lg font-semibold text-[#063591] mb-2">{feature.title}</h3>

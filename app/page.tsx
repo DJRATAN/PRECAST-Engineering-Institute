@@ -9,7 +9,7 @@ export default function Home() {
       <Navigation />
       <Hero />
       <FeatureCards />
-      <CTA />
+      {/* <CTA /> */}
     </div>
   )
 }
