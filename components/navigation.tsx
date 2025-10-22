@@ -10,21 +10,27 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center gap-2 font-bold text-xl">
-            <Image src="/mega-foundries-logo.png" alt="MEGA Foundries" width={40} height={40} className="h-14 w-auto" />
-            {/* <span className="hidden sm:inline text-gray-900">MEGA Foundries</span> */}
+            <Image
+              src="/precast-logo.png"
+              alt="PRECAST Engineering Institute"
+              width={40}
+              height={40}
+              className="h-24 w-auto"
+            />
+        {/*    <span className="hidden sm:inline text-[#063591]">PRECAST</span>*/}
           </Link>
 
           <div className="hidden md:flex items-center gap-8">
-            <Link href="/courses" className="text-gray-700 hover:text-red-600 transition">
+            <Link href="/courses" className="text-gray-700 hover:text-[#063591] transition">
               Courses
             </Link>
-            <Link href="/learn" className="text-gray-700 hover:text-red-600 transition">
+            <Link href="/learn" className="text-gray-700 hover:text-[#063591] transition">
               Learn
             </Link>
-            <Link href="/community" className="text-gray-700 hover:text-red-600 transition">
+            <Link href="/community" className="text-gray-700 hover:text-[#063591] transition">
               Community
             </Link>
-            <Link href="/about" className="text-gray-700 hover:text-red-600 transition">
+            <Link href="/about" className="text-gray-700 hover:text-[#063591] transition">
               About
             </Link>
           </div>
@@ -33,7 +39,7 @@ export default function Navigation() {
             <Button variant="outline" asChild>
               <Link href="/login">Login</Link>
             </Button>
-            <Button asChild className="bg-red-600 hover:bg-red-700">
+            <Button asChild className="bg-[#063591] hover:bg-[#052a6b]">
               <Link href="/signup">Sign Up</Link>
             </Button>
           </div>
