@@ -31,13 +31,14 @@ export function Footer() {
             </p>
             {/* Social Media Icons */}
             <div className="flex gap-3">
-              <a
+            <a
                 href="#"
                 className="w-10 h-10 rounded-full bg-[#063591] hover:bg-[#052a6b] text-white flex items-center justify-center transition-colors"
                 aria-label="Facebook"
               >
                 <Facebook size={18} />
               </a>
+              
               <a
                 href="#"
                 className="w-10 h-10 rounded-full bg-[#063591] hover:bg-[#052a6b] text-white flex items-center justify-center transition-colors"
@@ -52,13 +53,7 @@ export function Footer() {
               >
                 <Twitter size={18} />
               </a>
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full bg-[#063591] hover:bg-[#052a6b] text-white flex items-center justify-center transition-colors"
-                aria-label="YouTube"
-              >
-                <Youtube size={18} />
-              </a>
+              
               <a
                 href="#"
                 className="w-10 h-10 rounded-full bg-[#063591] hover:bg-[#052a6b] text-white flex items-center justify-center transition-colors"
