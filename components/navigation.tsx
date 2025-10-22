@@ -2,29 +2,29 @@
 
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { BookOpen } from "lucide-react"
+import Image from "next/image"
 
 export default function Navigation() {
   return (
-    <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-blue-100">
+    <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link href="/" className="flex items-center gap-2 font-bold text-xl text-blue-600">
-            <BookOpen className="w-6 h-6" />
-            <span>Learning Hub</span>
+          <Link href="/" className="flex items-center gap-2 font-bold text-xl">
+            <Image src="/mega-foundries-logo.png" alt="MEGA Foundries" width={40} height={40} className="h-14 w-auto" />
+            {/* <span className="hidden sm:inline text-gray-900">MEGA Foundries</span> */}
           </Link>
 
           <div className="hidden md:flex items-center gap-8">
-            <Link href="/courses" className="text-gray-700 hover:text-blue-600 transition">
+            <Link href="/courses" className="text-gray-700 hover:text-red-600 transition">
               Courses
             </Link>
-            <Link href="/learn" className="text-gray-700 hover:text-blue-600 transition">
+            <Link href="/learn" className="text-gray-700 hover:text-red-600 transition">
               Learn
             </Link>
-            <Link href="/community" className="text-gray-700 hover:text-blue-600 transition">
+            <Link href="/community" className="text-gray-700 hover:text-red-600 transition">
               Community
             </Link>
-            <Link href="/about" className="text-gray-700 hover:text-blue-600 transition">
+            <Link href="/about" className="text-gray-700 hover:text-red-600 transition">
               About
             </Link>
           </div>
@@ -33,7 +33,7 @@ export default function Navigation() {
             <Button variant="outline" asChild>
               <Link href="/login">Login</Link>
             </Button>
-            <Button asChild className="bg-blue-600 hover:bg-blue-700">
+            <Button asChild className="bg-red-600 hover:bg-red-700">
               <Link href="/signup">Sign Up</Link>
             </Button>
           </div>

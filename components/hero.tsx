@@ -9,14 +9,14 @@ export default function Hero() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="space-y-4">
-              <h1 className="text-5xl md:text-6xl font-bold text-gray-900 leading-tight">Learn, Play, and Grow</h1>
+              <h1 className="text-5xl md:text-6xl font-bold text-gray-900 leading-tight">Build, Learn, and Innovate</h1>
               <p className="text-xl text-gray-600">
-                Education for Everyone — From Africa to Switzerland. Make learning fun, powerful, and accessible.
+                MEGA Foundries — Empowering the next generation of builders and innovators worldwide.
               </p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white" asChild>
+              <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white" asChild>
                 <Link href="/courses">
                   Start Learning
                   <ArrowRight className="ml-2 w-4 h-4" />
@@ -25,7 +25,7 @@ export default function Hero() {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-blue-600 text-blue-600 hover:bg-blue-50 bg-transparent"
+                className="border-red-600 text-red-600 hover:bg-red-50 bg-transparent"
                 asChild
               >
                 <Link href="/volunteer">Join as Volunteer</Link>
@@ -34,22 +34,22 @@ export default function Hero() {
 
             <div className="flex gap-8 pt-4">
               <div>
-                <p className="text-3xl font-bold text-blue-600">50K+</p>
+                <p className="text-3xl font-bold text-red-600">50K+</p>
                 <p className="text-gray-600">Active Learners</p>
               </div>
               <div>
-                <p className="text-3xl font-bold text-green-600">100+</p>
-                <p className="text-gray-600">Free Courses</p>
+                <p className="text-3xl font-bold text-gray-900">100+</p>
+                <p className="text-gray-600">Courses</p>
               </div>
               <div>
-                <p className="text-3xl font-bold text-yellow-600">180+</p>
+                <p className="text-3xl font-bold text-red-600">180+</p>
                 <p className="text-gray-600">Countries</p>
               </div>
             </div>
           </div>
 
           <div className="relative h-96 md:h-full">
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-green-400 rounded-3xl opacity-20 blur-3xl"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-red-400 to-gray-400 rounded-3xl opacity-20 blur-3xl"></div>
             <img
               src="/students-learning-together.jpg"
               alt="Students learning"
