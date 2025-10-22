@@ -9,10 +9,10 @@ export default function Hero() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="space-y-4">
-              <h1 className="text-5xl md:text-6xl font-bold text-gray-900 leading-tight">
+              <h1 className="text-5xl md:text-6xl font-bold text-[#063591] leading-tight">
                 Master Engineering Excellence
               </h1>
-              <p className="text-xl text-gray-600">
+              <p className="text-xl text-[#4a5568]">
                 PRECAST Engineering Institute — Empowering the next generation of engineers and innovators worldwide.
               </p>
             </div>
@@ -37,15 +37,15 @@ export default function Hero() {
             <div className="flex gap-8 pt-4">
               <div>
                 <p className="text-3xl font-bold text-[#063591]">50K+</p>
-                <p className="text-gray-600">Active Engineers</p>
+                <p className="text-[#4a5568]">Active Engineers</p>
               </div>
               <div>
-                <p className="text-3xl font-bold text-gray-900">100+</p>
-                <p className="text-gray-600">Courses</p>
+                <p className="text-3xl font-bold text-[#063591]">100+</p>
+                <p className="text-[#4a5568]">Courses</p>
               </div>
               <div>
                 <p className="text-3xl font-bold text-[#063591]">180+</p>
-                <p className="text-gray-600">Countries</p>
+                <p className="text-[#4a5568]">Countries</p>
               </div>
             </div>
           </div>

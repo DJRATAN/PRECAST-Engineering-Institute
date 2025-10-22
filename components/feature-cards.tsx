@@ -29,8 +29,8 @@ export default function FeatureCards() {
     <section className="py-20 md:py-32 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Why Choose Us?</h2>
-          <p className="text-xl text-gray-600">Everything you need to succeed in your learning journey</p>
+          <h2 className="text-4xl md:text-5xl font-bold text-[#063591] mb-4">Why Choose Us?</h2>
+          <p className="text-xl text-[#4a5568]">Everything you need to succeed in your learning journey</p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -41,8 +41,8 @@ export default function FeatureCards() {
                 <div className="w-12 h-12 bg-gradient-to-br from-blue-400 to-green-400 rounded-lg flex items-center justify-center mb-4">
                   <Icon className="w-6 h-6 text-white" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">{feature.title}</h3>
-                <p className="text-gray-600">{feature.description}</p>
+                <h3 className="text-lg font-semibold text-[#063591] mb-2">{feature.title}</h3>
+                <p className="text-[#4a5568]">{feature.description}</p>
               </Card>
             )
           })}
