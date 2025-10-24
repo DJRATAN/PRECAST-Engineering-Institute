@@ -12,13 +12,13 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mb-12">
           {/* Brand Section */}
           <div className="md:col-span-1">
-            <div className="mb-4">
+            <div className="">
               <div className="flex items-center gap-2 mb-2">
                 <Image
                   src="/precast-logo.png"
                   alt="PRECAST Engineering Institute"
                   width={96}
-                  height={96}
+                  height={40}
                   className="h-40 w-auto"
                 />
                {/* <h3 className="text-xl font-bold text-[#063591]">PRECAST</h3>*/}
